@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jayant TN | Frontend Web Developer</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --bg: #f9fafb;
+      --text: #1f2933;
+      --card: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--card);
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3rem 2rem;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+    }
+
+    .hero span {
+      color: var(--primary);
+    }
+
+    .card {
+      background: var(--card);
+      padding: 1.8rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+      margin-top: 1.5rem;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #e5edff;
+      color: var(--primary);
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      margin: 0.3rem;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    @media (min-width: 768px) {
+      .hero {
+        grid-template-columns: 1.2fr 0.8fr;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h3>Jayant TN</h3>
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Frontend Web Developer & <span>AI & DS Student</span></h1>
+    <p>Frontend Developer Intern at Redback IT Solutions, Vellore</p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="card">
+    <h2>About Me</h2>
+    <p>I’m a final-year B.Tech student specializing in AI & Data Science, currently sharpening my frontend skills as a web developer intern. I enjoy turning complex problems into simple, usable interfaces using modern web tools. With beginner-level Python knowledge, I aim to bridge frontend development with data-driven features while focusing on performance, accessibility, and thoughtful UX.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>SQL</span><span>Excel</span>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="card">
+    <h2>Projects</h2>
+    <h3>IoT Mini Project – Smart Parking System</h3>
+    <p>Designed an IoT-based parking system to detect vehicle presence and manage slot availability using sensors and microcontrollers. Demonstrated efficient urban space management using real-time data.</p>
+    <p><strong>Technologies:</strong> Arduino, C Programming, IR Sensors, Hardware Components</p>
+    <p><a href="https://github.com/Userjayant" target="_blank">GitHub Repository</a></p>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="card">
+    <h2>Experience</h2>
+    <p><strong>Frontend Developer Intern</strong> – Redback IT Solutions (Dec 2025 – May 2026)</p>
+    <p><strong>Prompt Engineering Intern</strong> – HangoutTech Pvt. Ltd (Jun 2025 – Jul 2025)</p>
+    <ul>
+      <li>Refined prompt strategies for optimal AI responses</li>
+      <li>Data cleaning, manipulation, and visualization</li>
+    </ul>
+    <br />
+    <p><strong>Artificial Intelligence Intern</strong> – STRYDO Technologies (Jul 2024 – Aug 2024)</p>
+    <ul>
+      <li>Built and evaluated ML models</li>
+      <li>Performed data preprocessing and model tuning</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:jayanttn0407@gmail.com">jayanttn0407@gmail.com</a></p>
+    <p>Phone: 7904858628</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/jayant-tn-72759b243" target="_blank">View Profile</a></p>
+    <p>GitHub: <a href="https://github.com/Userjayant" target="_blank">github.com/Userjayant</a></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Jayant TN. All rights reserved.
+</footer>
+
+</body>
+</html>
